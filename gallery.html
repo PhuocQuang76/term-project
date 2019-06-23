@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scales=1, shrink-to-fit=no">
+    <title>Porfolio</title>
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!--Link to external font family.-->
+    <link href="https://fonts.googleapis.com/css?family=Alex%20Brush" rel="stylesheet">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--lightBox-->
+    <link rel="stylesheet" href="https://cdnjs.com/libraries/ekko-lightbox">
+    <!--print css-->
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <!--my css-->
+    <link type="text/css" rel="stylesheet" href="css/my-style.css">
+</head>
+<body>
+<div class="header">
+    <div class="row">
+        <div class="header-image col-md-3"><img src="images/headerPicture.jpg"> </div>
+        <div class="header-group col-md-6">
+            <h1>PHUOC QUANG'S PORFOLIIO  </h1>
+            <div id="move" class="animated slideInRight slower animation-iteration-count-1"><h2>Boston Universithy - Master in Web Development <i class="fas fa-graduation-cap"></i></h2></div>
+        </div>
+        <div class="col-md-3 set-clock">
+            <div id="time"></div>
+        </div>
+    </div>
+</div>
+<div class="wrap">
+    <div class="row">
+        <div class="col-md-2 side-menu">
+            <!--Side menu-->
+            <i class="fas fa-graduation-cap icon-cog animated bounce"></i><br>
+            <!--<img src="images/sun.png" alt="sunshine">-->
+            <h6>THE BEST WAY TO PREDICT THE FUTURE IS TO CREATE IT</h6>
+            <p>Abraham Lincoln</p>
+            <nav class="nav">
+                <a class="nav-link active" href="index.html">HOME</a>
+                <a class="nav-link" href="biography.html">BIOGRAPHY</a>
+                <a class="nav-link" href="interests.html">INTERESTS</a>
+                <div class="nest-bar">
+                    <ul>
+                        <li>
+                            <a href="interests.html#Gardening">Gardening</a>
+                        </li>
+                        <li>
+                            <a href="interests.html#Shopping">Shopping</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <a class="nav-link" href="gallery.html">GALLERY</a>
+                <div class="nest-bar">
+                    <ul>
+                        <li>
+                            <a href="gallery.html#Vietnam">VietNam</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html#Japan">Japan</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html#UnitedStates">United States</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <a class="nav-link" href="resume.html">RESUME</a>
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </nav>
+
+        </div>
+
+        <!--Main menu Collapse style bootrap-->
+        <div class=" col-md-10 gallery-main-menu">
+            <!--<div class="gallery">-->
+            <div id="gallery-sub-menu">
+                <ul>
+                    <li><a href="gallery.html#UnitedStates">United States</a></li>
+                    <li><a href="gallery.html#Japan">Japan</a></li>
+                    <li><a href="gallery.html#Vietnam">VietNam</a></li>
+                </ul>
+            </div>
+
+
+            <div id="main-gallery" class="accordion">
+
+                <!--VIetnam-->
+                <h4>INTERESTING PLACES AND FOODS</h4>
+                <p>I have spent my life in VietNam, Japan and United State. I would like to introduce some of interesting
+                    places I have been and most favorite foods I love. If you have time, here is my suggestion places and
+                    foods that you should try.</p>
+                <a name="Vietnam"></a>
+                <hr>
+                <article id="vietnam-main">
+                    <h5>VIETNAM <i class="fa fa-flag" aria-hidden="true"></i></h5>
+                    <p>Here is some of my recommendation of my hometown. I love vietnamese foods and vietnamese traditional  clothes and beautiful peaceful landscapes.</p>
+
+                    <h6>Look at those pictures with all of my favorite.</h6>
+                    <div class="buttons">
+                        <button class="hide">Toggle Images</button>
+                    </div>
+                    <!--<div class="row justify-content-center">-->
+                    <div class="col-md-8">
+                        <div class="row button-images">
+                            <a href="images/halongbay.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" target="_blank">
+                                <img src="images/halongbay.jpg" alt="halongbay" class="img-fluid">
+                            </a>
+                            <a href="images/nhatrangbeach.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" target="_blank">
+                                <img src="images/nhatrangbeach.jpg" alt="nhatrangbeach" class="img-fluid" target="_blank">
+                            </a>
+                            <a href="images/banhmi.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" target="_blank">
+                                <img src="images/banhmi.jpg" alt="banhmi" class="img-fluid" target="_blank">
+                            </a>
+                        </div>
+                        <div class="row button-images">
+                            <a href="images/goicuon.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" target="_blank">
+                                <img src="images/goicuon.jpeg" alt="goicuon" class="img-fluid">
+                            </a>
+                            <a href="images/phobo.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" target="_blank">
+                                <img src="images/phobo.jpg" alt="phobo" class="img-fluid">
+                            </a>
+                            <a href="images/danang.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" target="_blank">
+                                <img src="images/danang.jpg" alt="danang" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="row button-images">
+                            <a href="images/aodai2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" target="_blank">
+                                <img src="images/aodai2.jpg" alt="aodai" class="img-fluid">
+                            </a>
+                            <a href="images/aodai-nam.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" target="_blank">
+                                <img src="images/aodai-nam.jpg" alt="aodai" class="img-fluid">
+                            </a>
+                            <a href="images/vietnamtruyenthongaodai.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" target="_blank">
+                                <img src="images/vietnamtruyenthongaodai.jpeg" alt="aodai" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <!--</div>-->
+
+                    <div class="container"></div>
+                    <h6>Ho Chi Minh City where I grove up.</h6>
+                    <div>
+                        <figure>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501726.4604585685!2d106.41502877435191!3d10.754666394320669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo+Chi+Minh+City%2C+Vietnam!5e0!3m2!1sen!2sus!4v1558310639585!5m2!1sen!2sus" allowfullscreen></iframe>
+                        </figure>
+                    </div>
+                </article>
+                <!--japan-->
+                <a name="Japan"></a>
+                <hr>
+                <article id="japan-main">
+                    <h5>JAPAN <i class="fa fa-snowflake-o" aria-hidden="true"></i></h5>
+                    <p>Living in Japan, the most impressive about them is their culture. They have festivals very often,
+                        especially in Summer. Here are some most impressive festival I used to join.</p>
+                    <h6>Famous Japanese Festivals.</h6>
+                    <div class="buttons">
+                        <button class="hide">Toggle Images</button>
+                    </div>
+                    <div class="row  button-images">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="images/aoifestival.jpg" target="_blank">
+                                    <img src="images/aoifestival.jpg" alt="Lights" style="width:100%">
+                                    <div class="caption">
+                                        <p>Aoi Festival</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4  button-images">
+                            <div class="thumbnail">
+                                <a href="images/sakurafestival.jpg" target="_blank">
+                                    <img src="images/sakurafestival.jpg" alt="Nature" style="width:100%">
+                                    <div class="caption">
+                                        <p>Sakura Festival</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4  button-images">
+                            <div class="thumbnail">
+                                <a href="images/gionfestival.jpg" target="_blank">
+                                    <img src="images/gionfestival.jpg" alt="Fjords" style="width:100%">
+                                    <div class="caption">
+                                        <p>Gion Festival.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h6>Interesting places I have been.</h6>
+                    <div class="row ">
+                        <div class=""></div>
+                        <div id="demo" class="carousel slide" data-ride="carousel col-md-3">
+
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/temple.jpg" alt="Los Angeles">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/skiing.jpg" alt="Chicago">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/trainrailway.jpg" alt="New York">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/kamakura.jpg" alt="New York">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                <span class="addcolor carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <span class="addcolor carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+
+                </article>
+
+                <!--America-->
+                <a name="UnitedStates"></a>
+                <hr>
+                <article id="america-main">
+                    <h5>UNITED STATE <i class="fa fa-flag-checkered" aria-hidden="true"></i></h5>
+                    <p>Life in USA is great. I enjoy my life here more than anywhere in the world. I have been to
+                        Arizona,Nevada, South Carolina and one day I will go to Hawaii. Here are some of my memories from
+                        those
+                        places.</p>
+                    <h6>Favorite places I have been.</h6>
+                    <div class="buttons">
+                        <button class="hide">Toggle Images</button>
+                    </div>
+                    <div class="row  button-images">
+                        <!--<div class="col-md-8">-->
+                        <!--<div class="row justify-content-center">-->
+                        <div class="thumbnail col-md-4">
+                            <a href="images/america/corolinabeach.jpg" target="_blank">
+                                <img src="images/america/corolinabeach.jpg" alt="redrock" style="width:100%">
+                                <div class="caption">
+                                    <p>First year when I came to USA, I had a chance to visit one of my sister who used to lived there. She took me to the beach. It is a beautiful and fun beach I have never been. </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="thumbnail col-md-4">
+                            <a href="images/america/yosemite.jpg" target="_blank">
+                                <img src="images/america/yosemite.jpg" alt="cactus" style="width:100%">
+                                <div class="caption">
+                                    <p>Yosemite is a awesome place for hiking. If you have time, this is the place i definitely suggest you to go.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!--</div>-->
+                        <!--</div>-->
+                    </div>
+                    <!--<div class="col-md-8">-->
+                    <div class="row  button-images">
+                        <!--<div class="row justify-content-center">-->
+                        <div class="thumbnail col-md-4">
+                            <a href="images/america/redrock.jpg" target="_blank">
+                                <img src="images/america/redrock.jpg" alt="redrock" style="width:100%">
+                                <div class="caption">
+                                    <p>If you come to Neveda City, you should come to visit redrock mountain.<br>
+                                        It is amazing nature mountain with the color of RED.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="thumbnail col-md-4">
+                            <a href="images/america/cactus.jpg" target="_blank">
+                                <img src="images/america/cactus.jpg" alt="cactus" style="width:100%">
+                                <div class="caption">
+                                    <p>Arizona is a desert area, so there are many kind of special cactus grows up there.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+<!--</div>-->
+<footer>
+    <p>&copy; 2019 | Phuoc Quang </p>
+    <!--facebook-->
+    <div class="linkIcon">
+        <a href="https://www.facebook.com/phuoc.quang.3" target="_blank"><i class="fab fa-facebook-square social-link"></i></a>
+        <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin-square social-link"></i></a>
+    </div>
+
+</footer>
+<script type="text/javascript" src="js/jQueryGoogle.js"></script>
+<script src="js/moment.min.js"></script>
+<!--<script type="text/javascript" src="js/minislider.js"></script>-->
+<script type="text/javascript" src="js/gallery.js"></script>
+<!--<script src="js/my-js.js"></script>-->
+</body>
+</html>

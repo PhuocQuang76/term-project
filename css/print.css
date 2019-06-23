@@ -1,0 +1,92 @@
+@media print {
+    body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: white;
+    }
+
+
+
+        body {
+            font-size: 90%;
+        }
+
+        /*-------header---------*/
+        /*body .header {*/
+            /*display: none;*/
+            /*visibility: hidden;*/
+        /*}*/
+
+        /*-------Side menu---------*/
+        body div.wrap div.side-menu nav.nav div.nest-bar {
+            display: none;
+            visibility: hidden;
+        }
+
+        body div.wrap div.side-menu {
+            /*height: 500px;*/
+            width: 15%;
+            padding: 0px;
+        }
+
+        body div.wrap div.side-menu nav.nav a {
+            font-size: 75%;
+        }
+
+        body div.wrap div.side-menu div.linkIcon {
+            font-size: 120%;
+            margin: 15px auto auto 25%;
+        }
+
+        body div.wrap div.side-menu #time {
+            display: none;
+            visibility: hidden;
+        }
+
+        /*-------Home menu---------*/
+        body div.wrap div div.main-menu {
+            padding-left: 10%;
+        / / height: 400 px;
+        }
+
+        /*----------------------------footer-----------------------------*/
+        body footer {
+            height: 40px;
+        }
+
+        body footer p {
+            margin-top: -10px;
+        }
+
+        /*----------------------------resume-----------------------------*/
+        body div.wrap div div.resume-main-menu table tr th {
+            width: 5%;
+        }
+
+        body div.wrap div div.resume-main-menu table td {
+            width: 40%;
+            border: 1.5px solid #0d263f;
+        }
+
+        /*----------------------------Biograohy-----------------------------*/
+        body div.wrap div div.biography-main-menu #demo {
+            display: none;
+            visibility: hidden;
+        }
+
+        /*----------------------------Contact-----------------------------*/
+        body div.wrap div div.contact-main-menu{
+            width: 90%;
+        }
+        body div.wrap div div.contact-main-menu #info-button div.error {
+            margin-bottom: -20px;
+        }
+
+        /*----------------------------Interests-----------------------------*/
+
+    body div.wrap div div.interest-main-menu #main-interest figure video {
+        display: none;
+        visibility: hidden;
+    }
+        /*----------------------------Gallery-----------------------------*/
+
+    }

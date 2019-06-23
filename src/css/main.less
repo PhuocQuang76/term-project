@@ -1,0 +1,509 @@
+@import "clearless/mixins/all";
+@import "theme-color";
+@import "font-color";
+//HOME
+
+body {
+  overflow: auto;
+  //height: 500px;
+  width: 98%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: @color-home-body-theme;
+
+  div.homeBG {
+    background-image: url("../images/coffeeandcomputer.jpg");
+    background-repeat: no-repeat;
+  }
+
+  //-------------------------------side menu---------------------
+  div.wrap {
+    overflow: auto;
+    height: 100%;
+    //Side Menu
+    div.side-menu {
+      height: 500px;
+      width: 30%;
+      position: fixed;
+      z-index: 1;
+      //top: 0;
+      left: 0;
+      //background-color: #111;
+      overflow-x: hidden;
+      //padding-top: 10px;
+      padding: 30px;
+      background-color: @color-home-sideMenu-theme;
+      //margin-bottom: 30px;
+      margin-top: 20px;
+      margin-left: 1%;
+
+      i.icon-cog {
+        color: @color-white;
+        font-size: 150%;
+        //marigin-bottom: 40px;
+        margin-left: 45%;
+        margin-right: auto;
+        pdding-top: -35px;
+      }
+      h6 {
+        font-size: 70%;
+        color: @color-white;
+        text-align: center;
+        font-family: "Times";
+        padding-top: 5px;
+      }
+      p {
+        font-size: 40%;
+        font-style: italic;
+        color: wheat;
+        text-align: center;
+      }
+      nav.nav {
+        border-top: 1px solid @color-white;
+        border-bottom: 1px solid @color-white;
+        //text-align: center;
+        //padding-top: 20px;
+        //padding-bottom: 20px;
+        a {
+          font-size: 85%;
+          color: @color-blue;
+          font-family: "Times";
+          //text-align: center !important;
+          margin-bottom: -6px;
+        }
+        a:hover {
+          font-style: italic;
+          color: @color-yellow;
+
+        }
+
+        div.nest-bar {
+          color: @color-white;
+
+          ul {
+            margin: auto auto -5px 25px;
+          }
+
+        }
+      }
+      div.linkIcon {
+        font-size: 180%;
+        //text-align: center;
+        margin: 15px auto auto 35%;
+
+        i.social-link {
+          color: @color-white
+        }
+        i.social-link:hover {
+          color: @color-yellow;
+        }
+      }
+      #time {
+        font-size: 80%;
+        color: #84817a;
+        text-align: center;
+      }
+    }
+  }
+
+  // -------------------------  Home page -------------------------
+  div.wrap {
+    div {
+      div.main-menu {
+        left: 15%;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        padding-left: 5%;
+        border-top: 1px solid @color-white;
+        border-bottom: 1px solid @color-white;
+        text-align: center;
+        height: 500px;
+        // margin: 70px 0px 40px 0px;
+        // div.welcome-group {
+
+        h5 {
+          padding-top: 100px;
+          color: white;
+          font-family: "Times";
+        }
+        h1 {
+          font-size: 260%;
+          color: @color-blue;
+          font-family: "Alex Brush";
+          font-weight: bold;
+        }
+        //}
+
+        button#playVid {
+          color: @color-white;
+          background-color: @color-home-sideMenu-theme;
+          width: 18%;
+        }
+        button#playVid:hover {
+          #gradient > .vertical(@color-blue, rgba(20, 16, 15, 0.74));
+          color: @color-white;
+        }
+        div#home-video {
+
+          padding-top: 30px;
+          video {
+            //border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+
+  //--------------------------footer----------------------------
+  footer {
+    overflow: auto;
+    height: 100px;
+    #gradient > .vertical(@color-header-theme, rgba(20, 16, 15, 0.74));
+    p {
+      margin-top: 10px;
+      padding-top: 23px;
+      color: @color-darkblue;
+      text-align: center;
+      font-family: "Times";
+    }
+  }
+
+  // -------------------------  Header -----------------------------------------------------
+  .header {
+    #gradient > .vertical(@color-header-theme, rgba(20, 16, 15, 0.74));
+    div.header-group {
+      font-size: 200%;
+      color: @color-blue;
+      font-family: "Alex Brush";
+      font-weight: bold;
+      text-align: center;
+      margin-top: 30px;
+      h2 {
+        color: @color-darkblue;
+      }
+    }
+    div img {
+      border-radius: 400%;
+
+    }
+    div.set-clock {
+      color: #84817a;
+      //float:right;
+      margin-top: 120px;
+      padding-left: 6%;
+      font-size: 80%;
+    }
+  }
+
+  // -------------------------  Resume -----------------------------------------------------
+  div.wrap {
+    div {
+      div.resume-main-menu {
+        left: 15%;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        padding-left: 5%;
+        #resume-info {
+          padding-bottom: 25px;
+        }
+        h4 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+        }
+        h6 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+        }
+        table {
+          tr {
+            th {
+              width: 20%;
+              border: 1.5px solid @color-homr-footer-theme;
+              padding-left: 4px;
+            }
+
+          }
+          td {
+            border: 1.5px solid @color-homr-footer-theme;
+            padding-left: 4px;
+          }
+
+        }
+
+      }
+    }
+  }
+
+  //---------------------------------BIOGRAPHY---------------------------------
+
+  div.wrap {
+    div {
+      div.biography-main-menu {
+        left: 15%;
+        margin-top: 15px;
+        //top: 30px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        padding-left: 5%;
+
+        h6 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  //---------------------------------CONTACT---------------------------------
+  div.wrap {
+
+    div {
+      div.contact-main-menu {
+        left: 15%;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        padding-left: 5%;
+        display: block;
+        h4 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+        }
+        h6 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+        }
+        #info-button {
+          margin-left: -15px;
+          padding-bottom: 30px;
+          label {
+            padding-bottom: 1px;
+          }
+
+          div.input {
+            //font-size: 100% !important;
+            font-size: 80%;
+            input {
+              //margin-bottom: -20px;
+
+              border: 0.1em solid grey;
+            }
+          }
+          div.input-error {
+            input {
+              border: 0.1em solid darkred;
+            }
+          }
+          div.input-good {
+            input {
+              border: 0.1em solid #314d7a;
+            }
+          }
+
+          div.error {
+            div {
+              display: block;
+              font-size: 70%;
+              padding-left: 10%;
+            }
+
+            .good {
+              color: green;
+            }
+
+            .error {
+              color: red;
+            }
+          }
+        }
+
+        #radio-button {
+          padding-bottom: 20px;
+        }
+        #checkbox-button {
+          padding-bottom: 20px;
+          input {
+            padding-right: 50%;
+          }
+        }
+        #buttons {
+          padding-bottom: 20px;
+          #submitbutton, #resetbutton {
+            #gradient > .vertical(#1f62a0, rgba(20, 16, 15, 0.74));
+            border-radius: 25px;
+            color: @color-white;
+            width: 100px;
+            height: 35px;
+          }
+        }
+      }
+    }
+  }
+
+  //-------------------------  interests -----------------------------------------------------
+
+  div.wrap {
+    div {
+      div.interest-main-menu {
+        left: 15%;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        padding-left: 5%;
+
+        h4 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+          clear: both;
+        }
+        h5 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+        }
+        h6 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+        }
+
+        #interest-sub-menu {
+          ul {
+            list-style-type: none;
+            margin: 0;
+          }
+
+          li {
+            float: right;
+            a {
+              display: block;
+              //padding-left: 10px;
+              padding-left: 10px;
+              text-decoration: underline;
+            }
+          }
+          li a:hover {
+            background-color: @color-blue;
+            color: @color-white;
+
+          }
+        }
+
+        #main-interest {
+          margin-top: 30px;
+
+          section {
+            padding-bottom: 20px;
+            ul {
+              list-style-type: none;
+              margin-left: 50px;
+            }
+
+            li {
+              float: left;
+              a {
+                display: block;
+                //padding-left: 10px;
+                padding-right: 5px;
+                text-decoration: underline;
+              }
+            }
+            li a:hover {
+              background-color: @color-home-body-theme;
+              color: @color-white;
+
+            }
+            h6 {
+              padding-left: 27%;
+
+              clear: both;
+            }
+          }
+          figure video {
+            width: 50%;
+            height: 300px;
+          }
+        }
+      }
+    }
+  }
+
+  //// -------------------------  gallery -----------------------------------------------------
+  div.wrap {
+    div {
+      div.gallery-main-menu {
+        left: 15%;
+        margin-top: 15px;
+        //padding-right: 5%;
+        margin-bottom: 25px;
+        padding-left: 5%;
+
+        div#gallery-sub-menu {
+          ul {
+            list-style-type: none;
+            margin: 0;
+          }
+
+          li {
+            float: right;
+            a {
+              display: block;
+              //padding-left: 10px;
+              //padding-right: 10px;
+              text-decoration: underline;
+            }
+          }
+          li a:hover {
+            background-color: @color-blue;
+            color: @color-white;
+          }
+        }
+
+        div#main-gallery {
+          margin-top: 30px;
+        }
+      }
+
+      div#main-gallery {
+        clear: both;
+        h4 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+        }
+        h5 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+        }
+        h6 {
+          color: @color-darkblue;
+          font-family: "Times";
+          font-weight: bold;
+        }
+
+        #vietnam-main {
+
+        }
+
+        #japan-main {
+
+        }
+
+        #america-main {
+          clear: both;
+          #contain-usa {
+
+          }
+        }
+      }
+    }
+  }
+
+  /*------------------------screen---------------------*/
+
+}

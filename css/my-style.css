@@ -1,0 +1,698 @@
+body {
+  font-size: 100%;
+  overflow: auto;
+  width: 98%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ede7da;
+  /*------------------------screen---------------------*/
+}
+body div.homeBG {
+  background-image: url("../images/coffeeandcomputer.jpg");
+  background-repeat: no-repeat;
+}
+body div.wrap {
+  overflow: auto;
+  height: 100%;
+}
+
+/*--------------Side menu------------------*/
+body div.wrap div.side-menu {
+  /*height: 500px;*/
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  overflow-x: hidden;
+  padding: 30px;
+  background-color: #081929;
+  margin-top: 20px;
+  margin-left: 1%;
+}
+body div.wrap div.side-menu i.icon-cog {
+  color: #5f5f5f;
+  font-size: 150%;
+  margin-left: 45%;
+  margin-right: auto;
+  pdding-top: -35px;
+}
+body div.wrap div.side-menu h6 {
+  font-size: 70%;
+  color: #ecd6ac;
+  text-align: center;
+  font-family: "Times";
+  padding-top: 5px;
+}
+body div.wrap div.side-menu p {
+  font-size: 40%;
+  font-style: italic;
+  color: #5f5f5f;
+  text-align: center;
+}
+body div.wrap div.side-menu nav.nav {
+  border-top: 1px solid #5f5f5f;
+  border-bottom: 1px solid #5f5f5f;
+}
+body div.wrap div.side-menu nav.nav a {
+  font-size: 85%;
+  color: #00a9e2;
+  font-family: "Times";
+  margin-bottom: -6px;
+}
+body div.wrap div.side-menu nav.nav a:hover {
+  font-style: italic;
+  color: #f5deb3;
+}
+body div.wrap div.side-menu nav.nav div.nest-bar {
+  color: #5f5f5f;
+}
+body div.wrap div.side-menu nav.nav div.nest-bar ul {
+  margin: auto auto -5px 25px;
+}
+
+body div.wrap div.side-menu #time {
+  font-size: 80%;
+  color: #84817a;
+  text-align: center;
+}
+
+.sidebar{
+  will-change: min-height;
+}
+
+.sidebar__inner{
+  transform: translate(0, 0); /* For browsers don't support translate3d. */
+  transform: translate3d(0, 0, 0);
+  will-change: position, transform;
+}
+
+/*---------------------------------home page-------------------------------*/
+body div.wrap div div.main-menu {
+  left: 15%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding-left: 5%;
+  border-top: 1px solid #5f5f5f;
+  border-bottom: 1px solid #5f5f5f;
+  text-align: center;
+  height: 500px;
+}
+body div.wrap div div.main-menu h5 {
+  padding-top: 100px;
+  color: white;
+  font-family: "Times";
+}
+body div.wrap div div.main-menu h1 {
+  font-size: 260%;
+  color: #00a9e2;
+  font-family: "Alex Brush";
+  font-weight: bold;
+}
+body div.wrap div div.main-menu button#playVid {
+  color: #5f5f5f;
+  background-color: #081929;
+  width: 18%;
+}
+body div.wrap div div.main-menu button#playVid:hover {
+  background-color: rgba(20, 16, 15, 0.74);
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#00a9e2), to(rgba(20, 16, 15, 0.74)));
+  /* Konqueror */
+  background-image: -moz-linear-gradient(#00a9e2, rgba(20, 16, 15, 0.74));
+  /* FF 3.6+ */
+  background-image: -ms-linear-gradient(#00a9e2, rgba(20, 16, 15, 0.74));
+  /* IE10 */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00a9e2), color-stop(100%, rgba(20, 16, 15, 0.74)));
+  /* Safari 4+, Chrome 2+ */
+  background-image: -webkit-linear-gradient(#00a9e2, rgba(20, 16, 15, 0.74));
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -o-linear-gradient(#00a9e2, rgba(20, 16, 15, 0.74));
+  /* Opera 11.10 */
+  background-image: -ms-linear-gradient(top, #00a9e2 0%, rgba(20, 16, 15, 0.74) 100%);
+  /* IE10+ */
+  background-image: linear-gradient(#00a9e2, rgba(20, 16, 15, 0.74));
+  /* the standard */
+  color: #5f5f5f;
+}
+body div.wrap div div.main-menu div#home-video {
+  padding-top: 30px;
+}
+
+/*----------------------------footer-----------------------------*/
+body footer {
+  overflow: auto;
+  height: 100px;
+  background-color: rgba(20, 16, 15, 0.74);
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#081929), to(rgba(20, 16, 15, 0.74)));
+  /* Konqueror */
+  background-image: -moz-linear-gradient(#081929, rgba(20, 16, 15, 0.74));
+  /* FF 3.6+ */
+  background-image: -ms-linear-gradient(#081929, rgba(20, 16, 15, 0.74));
+  /* IE10 */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #081929), color-stop(100%, rgba(20, 16, 15, 0.74)));
+  /* Safari 4+, Chrome 2+ */
+  background-image: -webkit-linear-gradient(#081929, rgba(20, 16, 15, 0.74));
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -o-linear-gradient(#081929, rgba(20, 16, 15, 0.74));
+  /* Opera 11.10 */
+  background-image: -ms-linear-gradient(top, #081929 0%, rgba(20, 16, 15, 0.74) 100%);
+  /* IE10+ */
+  background-image: linear-gradient(#081929, rgba(20, 16, 15, 0.74));
+  /* the standard */
+}
+
+body footer  {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+body footer p {
+  margin-top: 10px;
+  padding-top: 23px;
+  color: #38588b;
+  /*text-align: center;*/
+  font-family: "Times";
+}
+
+
+
+body footer div.linkIcon {
+  font-size: 150%;
+  margin-top:-10px;
+}
+body footer div.linkIcon i.social-link {
+  color: #38588b;
+}
+body footer div.linkIcon i.social-link:hover {
+  color: #f5deb3;
+}
+/*----------------------------Header-----------------------------*/
+body .header {
+  background-color: rgba(20, 16, 15, 0.74);
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#081929), to(rgba(20, 16, 15, 0.74)));
+  /* Konqueror */
+  background-image: -moz-linear-gradient(#081929, rgba(20, 16, 15, 0.74));
+  /* FF 3.6+ */
+  background-image: -ms-linear-gradient(#081929, rgba(20, 16, 15, 0.74));
+  /* IE10 */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #081929), color-stop(100%, rgba(20, 16, 15, 0.74)));
+  /* Safari 4+, Chrome 2+ */
+  background-image: -webkit-linear-gradient(#081929, rgba(20, 16, 15, 0.74));
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -o-linear-gradient(#081929, rgba(20, 16, 15, 0.74));
+  /* Opera 11.10 */
+  background-image: -ms-linear-gradient(top, #081929 0%, rgba(20, 16, 15, 0.74) 100%);
+  /* IE10+ */
+  background-image: linear-gradient(#081929, rgba(20, 16, 15, 0.74));
+  /* the standard */
+}
+body .header div.header-group {
+  /*font-size: 150%;*/
+  color: #00a9e2;
+  font-family: "Alex Brush";
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+body .header div.header-group h1 {
+  font-size: 220%;
+}
+body .header div.header-group h2 {
+  font-size: 180%;
+  color: #38588b;
+}
+body .header div img {
+  border-radius: 400%;
+}
+body .header div.set-clock {
+  color: #dec9a2;
+  margin-top: 120px;
+  padding-left: 3%;
+  font-size: 80%;
+}
+
+/*----------------------------resume-----------------------------*/
+body div.wrap div div.resume-main-menu {
+  left: 15%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding-left: 5%;
+}
+body div.wrap div div.resume-main-menu #resume-info {
+  padding-bottom: 25px;
+}
+body div.wrap div div.resume-main-menu h4 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+}
+body div.wrap div div.resume-main-menu h6 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+}
+body div.wrap div div.resume-main-menu table tr th {
+  width: 20%;
+  border: 1.5px solid #0d263f;
+  padding-left: 4px;
+}
+body div.wrap div div.resume-main-menu table td {
+  border: 1.5px solid #0d263f;
+  padding-left: 4px;
+}
+
+
+/*----------------------------Biograohy-----------------------------*/
+body div.wrap div div.biography-main-menu {
+  left: 15%;
+  margin-top: 15px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  padding-left: 5%;
+}
+body div.wrap div div.biography-main-menu h6 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+}
+
+/*----------------------------Contact-----------------------------*/
+body div.wrap div div.contact-main-menu {
+  /*left: 15%;*/
+  margin-top: 15px;
+  margin-bottom: 25px;
+  margin-left: 19%;
+  display: block;
+}
+body div.wrap div div.contact-main-menu h4 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+}
+body div.wrap div div.contact-main-menu h6 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+}
+body div.wrap div div.contact-main-menu #form-info {
+  /*margin-left: -15px;*/
+  padding-bottom: 30px;
+}
+
+body div.wrap div div.contact-main-menu #form-info input{
+  width:200px;
+}
+body div.wrap div div.contact-main-menu #form-info label {
+  padding-bottom: 1px;
+}
+body div.wrap div div.contact-main-menu #form-info div.input {
+  width:50%;
+  /*font-size: 80%;*/
+}
+body div.wrap div div.contact-main-menu #form-info div.input input {
+  border: 0.1em solid grey;
+}
+/*body div.wrap div div.contact-main-menu #form-info div.error{*/
+  /*margin-bottom:-20px;*/
+/*}*/
+
+body div.wrap div div.contact-main-menu #form-info div.input-error,div.input-good{
+  /*margin-left:15px;*/
+}
+body div.wrap div div.contact-main-menu #form-info div.input-error input {
+  border: 0.1em solid darkred;
+}
+body div.wrap div div.contact-main-menu #form-info div.input-good input {
+  border: 0.1em solid #314d7a;
+}
+body div.wrap div div.contact-main-menu #form-info div.error {
+  display: block;
+  font-size: 70%;
+  padding-left: 30px;
+}
+body div.wrap div div.contact-main-menu #form-info div.error .good {
+  color: green;
+}
+body div.wrap div div.contact-main-menu #form-info div.error .error {
+  color: red;
+  display: block;
+  font-size: 70%;
+  /*padding-left: 10%;*/
+}
+body div.wrap div div.contact-main-menu #radio-button {
+  padding-bottom: 20px;
+}
+body div.wrap div div.contact-main-menu #checkbox-button {
+  padding-bottom: 20px;
+}
+body div.wrap div div.contact-main-menu #checkbox-button input {
+  padding-right: 50%;
+}
+body div.wrap div div.contact-main-menu #buttons {
+  padding-bottom: 20px;
+}
+body div.wrap div div.contact-main-menu #buttons #submitbutton,
+body div.wrap div div.contact-main-menu #buttons #resetbutton {
+  background-color: rgba(20, 16, 15, 0.74);
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#1f62a0), to(rgba(20, 16, 15, 0.74)));
+  /* Konqueror */
+  background-image: -moz-linear-gradient(#1f62a0, rgba(20, 16, 15, 0.74));
+  /* FF 3.6+ */
+  background-image: -ms-linear-gradient(#1f62a0, rgba(20, 16, 15, 0.74));
+  /* IE10 */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1f62a0), color-stop(100%, rgba(20, 16, 15, 0.74)));
+  /* Safari 4+, Chrome 2+ */
+  background-image: -webkit-linear-gradient(#1f62a0, rgba(20, 16, 15, 0.74));
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -o-linear-gradient(#1f62a0, rgba(20, 16, 15, 0.74));
+  /* Opera 11.10 */
+  background-image: -ms-linear-gradient(top, #1f62a0 0%, rgba(20, 16, 15, 0.74) 100%);
+  /* IE10+ */
+  background-image: linear-gradient(#1f62a0, rgba(20, 16, 15, 0.74));
+  /* the standard */
+  border-radius: 25px;
+  color: #f5deb3;
+  width: 100px;
+  height: 35px;
+}
+
+/*----------------------------Interests-----------------------------*/
+body div.wrap div div.interest-main-menu {
+  left: 15%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding-left: 5%;
+}
+body div.wrap div div.interest-main-menu h4 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+  clear: both;
+}
+body div.wrap div div.interest-main-menu h5 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+}
+body div.wrap div div.interest-main-menu h6 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+}
+body div.wrap div div.interest-main-menu #interest-sub-menu ul {
+  list-style-type: none;
+  margin: 0;
+}
+body div.wrap div div.interest-main-menu #interest-sub-menu li {
+  float: right;
+}
+body div.wrap div div.interest-main-menu #interest-sub-menu li a {
+  display: block;
+  padding-left: 10px;
+  text-decoration: underline;
+}
+body div.wrap div div.interest-main-menu #interest-sub-menu li a:hover {
+  background-color: #00a9e2;
+  color: #5f5f5f;
+}
+body div.wrap div div.interest-main-menu #main-interest {
+  margin-top: 30px;
+}
+body div.wrap div div.interest-main-menu #main-interest section {
+  padding-bottom: 20px;
+}
+body div.wrap div div.interest-main-menu #main-interest section ul {
+  list-style-type: none;
+  margin-left: 50px;
+}
+body div.wrap div div.interest-main-menu #main-interest section li {
+  float: left;
+}
+body div.wrap div div.interest-main-menu #main-interest section li a {
+  display: block;
+  padding-right: 5px;
+  text-decoration: underline;
+}
+body div.wrap div div.interest-main-menu #main-interest section li a:hover {
+  background-color: #ede7da;
+  color: #5f5f5f;
+}
+body div.wrap div div.interest-main-menu #main-interest section h6 {
+  padding-left: 27%;
+  clear: both;
+}
+body div.wrap div div.interest-main-menu #main-interest figure video {
+  width: 50%;
+  height: 300px;
+}
+
+/*----------------------------Gallery-----------------------------*/
+body div.wrap div div.gallery-main-menu {
+  left: 15%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding-left: 5%;
+}
+body div.wrap div div.gallery-main-menu div#gallery-sub-menu ul {
+  list-style-type: none;
+  margin: 0;
+}
+body div.wrap div div.gallery-main-menu div#gallery-sub-menu li {
+  padding-left: 10px;
+  float: right;
+}
+body div.wrap div div.gallery-main-menu div#gallery-sub-menu li a {
+  display: block;
+  text-decoration: underline;
+}
+body div.wrap div div.gallery-main-menu div#gallery-sub-menu li a:hover {
+  background-color: #00a9e2;
+  color: #5f5f5f;
+}
+
+
+body div.wrap div div.gallery-main-menu div#main-gallery {
+  margin-top: 30px;
+}
+body div.wrap div div#main-gallery {
+  clear: both;
+}
+body div.wrap div div#main-gallery .row{
+  margin-bottom: 30px;
+}
+
+body div.wrap div div#main-gallery h4 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+}
+body div.wrap div div#main-gallery h5 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+}
+body div.wrap div div#main-gallery h6 {
+  color: #38588b;
+  font-family: "Times";
+  font-weight: bold;
+}
+
+body div.wrap div div#main-gallery #vietnam-main img {
+  margin-left: -14px;
+  margin-top:5px;
+}
+body div.wrap div div#main-gallery #japan-main #demo {
+  margin-left: 18px;
+}
+body div.wrap div div#main-gallery #america-main {
+  clear: both;
+}
+
+body div.wrap div div#main-gallery .buttons{
+  font-size: 100%;
+  color: #2b89e0;
+
+  font-family: "Alex Brush";
+
+
+  width:10%;
+  margin-botton:20px;
+}
+body div.wrap div div#main-gallery .buttons button.hide{
+  margin-botton:20px;
+  background-color: #9c9c9c;
+  border-radius: 10%;
+  height: 22px;
+}
+
+body div.wrap div div#main-gallery .buttons button.hide:hover {
+  color: #f5deb3;
+  background-color: #253a5c;
+  font-style: italic;
+
+}
+
+
+
+/*------------------------Set sreen size---------------------*/
+
+
+@media only screen and (max-width: 1250px) {
+  body .header div.header-group h1 {
+    font-size: 180%;
+  }
+  body .header div.header-group h2 {
+    font-size: 150%;
+    color: #38588b;
+  }
+  body .header div img {
+    border-radius: 400%;
+  }
+  body .header div.set-clock {
+    color: #84817a;
+    margin-top: 120px;
+    padding-left: 1%;
+    font-size: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 1050px) {
+  body {
+    font-size: 90%;
+  }
+
+  /*-------header---------*/
+  body .header {
+    display: none;
+    visibility: hidden;
+  }
+
+  /*-------Side menu---------*/
+  body div.wrap div.side-menu nav.nav div.nest-bar {
+    display: none;
+    visibility: hidden;
+  }
+
+  body div.wrap div.side-menu {
+    /*height: 500px;*/
+    width: 15%;
+    padding: 0px;
+  }
+
+  body div.wrap div.side-menu nav.nav a {
+    font-size: 75%;
+  }
+
+  body div.wrap div.side-menu div.linkIcon {
+    font-size: 120%;
+    margin: 15px auto auto 25%;
+  }
+
+  body div.wrap div.side-menu #time {
+    display: none;
+    visibility: hidden;
+  }
+
+  /*-------Home menu---------*/
+  body div.wrap div div.main-menu {
+    padding-left: 10%;
+  / / height: 400 px;
+  }
+
+  /*----------------------------footer-----------------------------*/
+  body footer {
+    height: 40px;
+  }
+
+  body footer p {
+    margin-top: -10px;
+  }
+
+  /*----------------------------resume-----------------------------*/
+  body div.wrap div div.resume-main-menu table tr th {
+    width: 5%;
+  }
+
+  body div.wrap div div.resume-main-menu table td {
+    width: 40%;
+    border: 1.5px solid #0d263f;
+  }
+
+  /*----------------------------Biograohy-----------------------------*/
+  body div.wrap div div.biography-main-menu #demo {
+    display: none;
+    visibility: hidden;
+  }
+
+  /*----------------------------Contact-----------------------------*/
+  body div.wrap div div.contact-main-menu{
+    width: 90%;
+  }
+  body div.wrap div div.contact-main-menu #info-button div.error {
+    margin-bottom: -20px;
+  }
+
+  /*----------------------------Interests-----------------------------*/
+  /*----------------------------Gallery-----------------------------*/
+
+}
+  @media only screen and (max-width: 850px) {
+    body {
+      font-size: 70%;
+    }
+
+    /*-------Home menu---------*/
+    body div.wrap div div.main-menu {
+      width: 70%;
+    }
+    /*----------------------------footer-----------------------------*/
+
+    /*----------------------------resume-----------------------------*/
+
+    body div.wrap div div.resume-main-menu{
+      width: 70%;
+    }
+    body div.wrap div div.resume-main-menu table tr th {
+      width: 2%;
+    }
+    body div.wrap div div.resume-main-menu table td {
+      width: 20%;
+      border: 1px solid #0d263f;
+    }
+
+    /*----------------------------Biograohy-----------------------------*/
+    body div.wrap div div.biography-main-menu{
+      width: 70%;
+    }
+    body div.wrap div div.biography-main-menu #demo{
+      display:none;
+      visibility: hidden;
+    }
+
+    /*----------------------------Contact-----------------------------*/
+
+    body div.wrap div div.contact-main-menu{
+      width: 70%;
+    }
+
+    body div.wrap div div.contact-main-menu #info-button div.error{
+      margin-bottom:-20px;
+    }
+
+    /*----------------------------Interests-----------------------------*/
+
+    body div.wrap div div.interest-main-menu{
+      width: 70%;
+    }
+
+    /*----------------------------Gallery-----------------------------*/
+    body div.wrap div div.gallery-main-menu{
+      width: 70%;
+    }
+
+  }
